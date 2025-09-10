@@ -221,12 +221,14 @@ main {
     border-radius: 10px;
 }
 
-main h2 {
+.mainhdr {
     text-align: center;
 }
 
-.h2-li { /*h2 lists*/
-    text-align: left;
+.mainhdr p {
+    margin: 3px 0;
+    font-size: 11pt;
+    color: rgb(165, 148, 249);
 }
 
 main > ol {
