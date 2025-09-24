@@ -110,10 +110,6 @@ header p {
     font-size: 16pt;
     color: rgb(165, 148, 249);
 }
-header small {
-    font-size: 11pt;
-    color: #AC7EE1;
-}
 header ul {
     list-style: none;
     margin: 2px 0;
@@ -229,6 +225,10 @@ main p {
 }
 .qte p {
     margin: 5px 0;
+}
+small {
+    font-size: 11pt;
+    color: #AC7EE1;
 }
 strong {
     font-weight: normal;
