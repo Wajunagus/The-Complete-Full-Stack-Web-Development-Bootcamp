@@ -1,46 +1,37 @@
 a {
     color: lightskyblue;
 }
-
 .adv { /*Advertisement*/
     text-align: center;
 }
-
 .bld {
     font-weight: bold;
 }
-
 body {
     background-color: #222222;
     color: darkgrey;
 }
-
 .date {
     margin: 10px 25px;
     text-align: right;
 }
-
 .date > span {
     padding: 5px 10px;
     color: black;
     background-color: azure;
 }
-
 .disc h4 { /*disclaimer*/
     font-size: 12pt;
 }
-
 .disc p { /*disclaimer*/
     font-size: 9pt;
     color: #5D8736;
     font-weight: bold;
     margin: 5px 0;
 }
-
 .emp { /*Emphasis*/
     color: #5D8736; /*https://colorhunt.co/palette/5d8736809d3ca9c46cf4ffc3*/
 }
-
 footer {
     margin-left: auto;
     margin-right: auto;
@@ -51,11 +42,9 @@ footer {
     border-radius: 10px;
     text-align: center;
 }
-
 footer p {
     margin: 5px 0;
 }
-
 .fp-hlt {
     margin-left: auto;
     margin-right: auto;
@@ -63,48 +52,39 @@ footer p {
     background-color: rgb(31, 45, 65);
     width: fit-content;
 }
-
 .fsi {
     font-style: italic;
     color: whitesmoke;
 }
-
 .gld {
     color: goldenrod;
 }
-
 h1 {
     margin: 5px 0;
     color: olive;
 }
-
 h2 {
     margin: 3px 0;
     color: rgb(142, 172, 205);
 }
-
 h3 {
     margin: 5px 0;
     color: rgb(102, 123, 198);
 }
-
 h4 {
     margin: 5px 0;
     color: steelblue;
     font-size: 14pt;
 }
-
 h5 {
     margin: 0;
     color: chocolate;
     font-size: 13pt;
 }
-
 h6 {
     color: mediumslateblue;
     font-size: 12pt;
 }
-
 header {
     margin-left: auto;
     margin-right: auto;
@@ -116,82 +96,68 @@ header {
     background-color: black;
     border-radius: 10px;
 }
-
 header hr {
     border: 1px dotted;
 }
-
 header img {
     margin-left: auto;
     margin-right: auto;
     margin: 3px 0;
     width: 40%;
 }
-
 header p {
     margin: 3px 0;
     font-size: 16pt;
     color: rgb(165, 148, 249);
 }
-
 header small {
     font-size: 11pt;
     color: #AC7EE1;
 }
-
 header ul {
     list-style: none;
     margin: 2px 0;
     padding: 0;
     display: inline-block;
 }
-
 header li {
     display: inline-block;
     /*margin-right: 5px;*/
     color: cornflowerblue;
 }
-
 .d-hlt { /*<div></div> highlight*/
     padding: 5px 10px;
     background-color: rgb(31, 45, 65);
     width: fit-content;
 }
-
 .p-hlt { /*<p></p> highlight*/
     padding: 5px 10px;
     background-color: rgb(31, 45, 65);
     width: fit-content;
 }
-
 .s-hlt { /*<span></span> highlight*/
     color: black;
     background-color: azure;
     padding: 0 5px;
 }
-
 html {
     font-size: 12pt;
 }
-
 img {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
 }
-
 .img25 {
     margin-left: auto;
     margin-right: auto;
     width: 25%;
 }
-
 .img40 {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
 }
-
 .img50 {
     margin-left: auto;
     margin-right: auto;
@@ -199,17 +165,14 @@ img {
     margin-bottom: 10px;
     width: 50%;
 }
-
 .img80 {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
 }
-
 .key {
     color: rgb(106, 154, 176);
 }
-
 main {
     margin-left: auto;
     margin-right: auto;
@@ -220,29 +183,26 @@ main {
     background-color: black;
     border-radius: 10px;
 }
-
+/*
 main header {
     text-align: center;
 }
-
+*/
 .mainhdr p {
     margin: 3px 0;
     font-size: 11pt;
     color: rgb(165, 148, 249);
 }
-
 main > ol {
     padding: 10px 50px;
     border-left: 3px solid red;
     background-color: #222222;
     width: fit-content;
 }
-
 main li {
     margin: 5px 0;
     padding-left: 5px;
 }
-
 main > ul {
     margin: 5px 0;
     padding: 5px 40px;
@@ -250,11 +210,9 @@ main > ul {
     background-color: rgb(31, 45, 65);
     width: fit-content;
 }
-
 main p {
     margin: 10px 0;
 }
-
 .mth {
     margin: 10px 0;
     font-size: 24pt;
@@ -262,7 +220,6 @@ main p {
     color: rgb(165, 148, 249);
     text-align: center;
 }
-
 .qte { /*quote*/
     padding: 10px 25px;
     background-color: rgb(31, 45, 65);
@@ -270,16 +227,13 @@ main p {
     border-left: 3px solid darkgoldenrod;
     width: fit-content;
 }
-
 .qte p {
     margin: 5px 0;
 }
-
 strong {
     font-weight: normal;
     color: darkkhaki;
 }
-
 ul.cust {
     list-style: none;
     padding: 10px 20px;
@@ -287,13 +241,11 @@ ul.cust {
     background-color: rgb(31, 45, 65);
     width: fit-content;
 }
-
 ul.cust li {
     margin: 5px 0;
     padding: 0 20px;
     position: relative;
 }
-
 ul.cust li::before {
     content: "\2713"; /*Unicode for (✓)*/
     position: absolute;
@@ -302,21 +254,18 @@ ul.cust li::before {
     color: #4CAF50;
     font-size: 12pt;
 }
-
 ul.custii {
     list-style: none;
     padding: 10px 40px;
     border-left: 3px solid red;
     background-color: rgb(31, 45, 65);
 }
-
 ul.custii li {
     margin: 5px 0;
     padding: 0 25px;
     padding-bottom: 5px;
     position: relative;
 }
-
 ul.custii li::before {
     content: "\261E"; /*Unicode for (☞)*/
     position: absolute;
@@ -325,20 +274,17 @@ ul.custii li::before {
     color: yellowgreen;
     font-size: 20pt;
 }
-
 ul.custiii {
     list-style: none;
     padding: 10px 40px;
     border-left: 3px solid red;
     background-color: rgb(31, 45, 65);
 }
-
 ul.custiii li {
     margin: 5px 0;
     padding: 0 25px;
     position: relative;
 }
-
 ul.custiii li::before {
     content: "\1F4CC"; /*Unicode for 📌(Pushpin)*/
     position: absolute;
@@ -347,7 +293,6 @@ ul.custiii li::before {
     /*color: orange;*/
     font-size: 18px;
 }
-
 ul.non { /*none*/
     list-style-type: none;
     padding: 10px;
@@ -356,14 +301,11 @@ ul.non { /*none*/
     background-color: rgb(31, 45, 65);
     width: fit-content;
 }
-
 ul.non li {
     margin: 5px 0;
 }
-
 /*
 https://www.w3schools.com/charsets
-
     💽 | Mini disk | &#x1F4BD;
     📸 | Camera with flash | &#x1F4F8;
     📺 | Television | &#x1F4FA;
