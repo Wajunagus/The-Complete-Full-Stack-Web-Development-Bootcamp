@@ -190,6 +190,7 @@ main header {
     color: rgb(165, 148, 249);
 }
 main > ol {
+    list-style-position: inside;
     padding: 10px 50px;
     border-left: 3px solid red;
     background-color: #222222;
